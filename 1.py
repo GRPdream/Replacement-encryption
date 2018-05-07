@@ -16,9 +16,9 @@ bList = sorted(aList)
 for t in bList:
 	for s in range(temp+1):
 		if xList[s][key.find(t)] != 0:
-	        print(xList[s][key.find(t)],end='')
-	    else:
-	    	continue
+		    print(xList[s][key.find(t)],end='')
+		else:
+			continue
 print(" ")
 input("Press <enter>")
 
